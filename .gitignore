@@ -1,2 +1,2 @@
-/examples
-/page-examples
+# Ignore all text files
+*.txt

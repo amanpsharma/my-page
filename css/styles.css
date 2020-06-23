@@ -930,7 +930,7 @@ Products Page
 */
 .projects-hero {
   height: 40vh;
-  background: var(--clr-primary-10);
+  /* background: var(--clr-primary-10); */
   display: grid;
   place-items: center;
 }

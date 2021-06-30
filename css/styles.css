@@ -368,7 +368,7 @@ Hero
 }
 .about{
   opacity: 0;
-  transition: 1s;
+  /* transition: 1s; */
   width: 0%;
 }
 .show{

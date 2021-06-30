@@ -366,6 +366,15 @@ Hero
 .hero-btn {
   margin-top: 1.25rem;
 }
+.about{
+  opacity: 0;
+  transition: 1s;
+  width: 0%;
+}
+.show{
+  opacity: 1;
+  width: 100%;
+}
 @media screen and (min-width: 992px) {
   .hero-img {
     display: block;

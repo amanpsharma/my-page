@@ -3,6 +3,13 @@ const navBtn = document.querySelector("#nav-btn");
 const closeBtn = document.querySelector("#close-btn");
 const sidebar = document.querySelector("#sidebar");
 const date = document.querySelector("#date");
+const controller = new ScrollMagic.Controller();
+const scene = new ScrollMagic.Scene({
+  triggerElement: ".about",
+})
+  .setClassToggle(".about", "show")
+  .addTo(controller);
+
 // add fixed class to navbar
 window.addEventListener("scroll", function () {
   if (window.pageYOffset > 80) {
